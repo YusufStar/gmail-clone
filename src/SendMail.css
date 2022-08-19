@@ -50,3 +50,7 @@
     border-bottom: 1px solid whitesmoke;
     outline: none;
 }
+
+.sendMail__message {
+    flex: 1;
+}
