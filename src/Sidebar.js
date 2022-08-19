@@ -19,7 +19,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <Button
-                startIcon={<AddIcon fontSize="large"  /> }
+                startIcon={<AddIcon fontSize="large"/>}
                 className="sidebar__compose"
             >
                 Compose

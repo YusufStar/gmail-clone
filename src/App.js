@@ -10,13 +10,14 @@ import {
 } from "react-router-dom"
 import Mail from './Mail';
 import EmailList from './EmailList';
+import SendMail from './SendMail';
 
 function App() {
   return (
     <Router>
     <div className="app">
         <Header />
-        <div className='app_body'>
+        <div className='app__body'>
           <Sidebar />
 
           <Switch>
@@ -28,6 +29,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <SendMail />
     </div>
     </Router>
   );
