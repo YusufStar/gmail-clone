@@ -16,6 +16,7 @@ import PhoneIcon from "@material-ui/icons/Phone"
 import IconButton from "@material-ui/core/IconButton";
 
 function Sidebar() {
+
     return (
         <div className="sidebar">
             <Button
