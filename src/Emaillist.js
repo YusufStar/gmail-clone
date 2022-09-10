@@ -10,7 +10,7 @@ function Emaillist() {
         <EmailListSetting />
         <EmailType />
 
-        <EmailBody name="Yusuf Yıldız" subject="Konu" message="Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu" time="03:20 PM"/>
+        <EmailBody name="Yusuf Yıldız" subject="Konu" message="Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu Mesaj Konusu " time="03:20 PM"/>
     </div>
   )
 }

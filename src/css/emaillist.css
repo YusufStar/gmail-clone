@@ -105,21 +105,22 @@
     width: 90%;
 }
 
-.emailbody .emailbody__right {
-    display: flex;
-    align-items: center;
-    flex: 10%;
-}
-
-.emailbody .emailbody__right p {
-    font-size: 12px;
-}
-
 .emailbody .emailbody__middle p {
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 0 20px;
+    padding: 0px 20px;
     max-width: 700px;
+}
+
+.emailbody .emailbody__right {
+    display: flex;
+    align-items: center;
+    flex: 10%;
+    justify-content: flex-end;
+}
+
+.emailbody .emailbody__right p {
+    font-size: 12px;
 }
