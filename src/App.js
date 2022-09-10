@@ -1,4 +1,5 @@
 import React from 'react';
+import Compose from './Compose';
 import EmailBody from './EmailBody';
 import Emaillist from './Emaillist';
 import Header from './Header';
@@ -13,7 +14,7 @@ function App() {
         <Sidebar />
         <Emaillist />
       </div>
-
+      <Compose />
     </div>
   );
 }
