@@ -4,7 +4,7 @@ import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import LabelOutlineIcon from '@material-ui/icons/LabelOutlined';
 
-function EmailBody() {
+function EmailBody({name,subject,message,time}) {
   return (
     <div className='emailbody'>
         <div className="emailbody__left">
@@ -12,17 +12,17 @@ function EmailBody() {
             <StarBorderIcon />
             <LabelOutlineIcon />
 
-            <h4>Mahabeer Singh</h4>
+            <h4>{name}</h4>
         </div>
 
         <div className="emailbody__middle">
             <div className="emailbody__middle__msg">
-                <p><b>Suject</b> This is message body</p>
+                <p><b>{subject}</b> {message}</p>
             </div>
         </div>
 
         <div className="emailbody__right">
-            <p>02:30 PM</p>
+            <p>{time}</p>
         </div>
     </div>
   )

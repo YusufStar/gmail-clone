@@ -13,14 +13,6 @@ function App() {
         <Sidebar />
         <Emaillist />
         <EmailBody />
-        <EmailBody />
-        <EmailBody />
-        <EmailBody />
-        <EmailBody />
-        <EmailBody />
-        <EmailBody />
-        <EmailBody />
-        <EmailBody />
       </div>
 
     </div>
