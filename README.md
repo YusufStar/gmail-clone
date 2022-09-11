@@ -1,4 +1,4 @@
 # gmail-clone
-photo1.png
+<img src="photo1.png" />
 <br/>
-photo2.png
+<img src="photo2.png" />
