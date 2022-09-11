@@ -19,7 +19,7 @@ function EmailListSetting() {
                 <ArrowDropDownIcon />
             </IconButton>
             <IconButton>
-                <RefreshIcon />
+                <RefreshIcon/>
             </IconButton>
             <IconButton>
                 <MoreVertIcon />
