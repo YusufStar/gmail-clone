@@ -15,7 +15,7 @@ import CreateIcon from '@material-ui/icons/Create'
 import MoreVertIcon from '@material-ui/icons/MoreVert' 
 import DeleteIcon from '@material-ui/icons/Delete' 
 import { closeSendMessage } from './features/mailSlice'
-import {useDispatch} from 'react-redux'
+import {useDispatch, useSelector} from 'react-redux'
 import { db } from './firebase';
 import firebase from 'firebase/compat/app';
 

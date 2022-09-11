@@ -7,8 +7,12 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline'
 import SettingsIcon from '@material-ui/icons/Settings'
 import AppsIcon from '@material-ui/icons/Apps'
+import { useSelector } from "react-redux";
+import firebase from "firebase/compat";
+import { selectUser } from "./features/userSlice";
 
 const Header = () => {
+    const user = useSelector(selectUser)
     return (
         <div className="header">
             <div className="header__left">
@@ -43,7 +47,7 @@ const Header = () => {
                     <AppsIcon></AppsIcon>
                 </IconButton>
 
-                <Avatar src="https://lh3.googleusercontent.com/ogw/AOh-ky1lFritf3oQ2M7YWntYX3DttNY5KEK3dtDeov6Q1w=s32-c-mo"></Avatar>
+                <Avatar></Avatar>
             </div>
         </div>
     );

@@ -27,8 +27,10 @@ function Emaillist() {
         return <EmailBody key={id} name={data.to} subject={data.subject} message={data.message} time={new Date(data.timestamp * 1000 + data.timestamp / 1000000).toLocaleTimeString()}/>
       })
     }
+
     </div>
-  )
+    
+  );
 }
 
 export default Emaillist
